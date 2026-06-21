@@ -296,8 +296,8 @@
 }
 
 .logo2_btn{
-    width:65px;
-    height:65px;
+    width: 80px;px;
+    height:80px;
     border-radius:50%;
     background:rgba(255,255,255,.08);
     display:flex;
@@ -311,7 +311,7 @@
 }
 
 .logo2_btn img{
-    width:38px;
+    width:50px;
 }
 
 /* ================= RESPONSIVE ================= */
@@ -370,8 +370,8 @@
 .cv-btn{
     display:inline-block;
     padding:12px 25px;
-    background: rgb(0, 0, 0);
-    color:white;
+    background: #38bdf8;
+    color:rgb(red, green, blue);
     text-decoration:none;
     border-radius:10px;
     font-size:16px;
