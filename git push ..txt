@@ -1,0 +1,3 @@
+git add .
+git commit -m "Move secrets to environment variables"
+git push
