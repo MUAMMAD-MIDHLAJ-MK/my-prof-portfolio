@@ -366,3 +366,20 @@
         flex-wrap:wrap;
     }
 }
+/*======= cv button===== */
+.cv-btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.cv-btn:hover{
+    background:#0ea5e9;
+    transform:translateY(-3px);
+}
