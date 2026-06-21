@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: my-prof-portfolio
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn my_prof.wsgi:application"
