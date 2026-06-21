@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About Me{% endblock %}
+
+{% block content %}
+
+<section class="about-section">
+
+    <div class="about-wrapper">
+
+        <div class="about-left">
+
+            <div class="profile-card">
+
+                <img src="{% static 'image/img.png' %}" alt="Midhlaj">
+
+                <h2>Muhammad Midhlaj</h2>
+
+                <p> Python Django Developer</p>
+
+            </div>
+
+        </div>
+
+        <div class="about-right">
+
+            <span class="tag">About Me</span>
+
+            <h1>
+                Building Modern Websites &
+                Learning New Technologies
+            </h1>
+
+            <p>
+                I am a passionate student and aspiring Python Django
+                Developer. I enjoy building responsive websites and web
+                applications using Python, Django, HTML, CSS,
+                JavaScript, and MySQL.
+            </p>
+
+            <p>
+                My goal is to become a professional Full Stack Developer
+                and contribute to real-world software projects while
+                continuously improving my technical skills.
+            </p>
+
+            <div class="about-cards">
+
+                <div class="mini-card">
+                    <h3>Education</h3>
+                    <p>+2 Student</p>
+                </div>
+
+                <div class="mini-card">
+                    <h3>Experience</h3>
+                    <p>Fresher</p>
+                </div>
+
+                <div class="mini-card">
+                    <h3>Focus</h3>
+                    <p>Python & Django</p>
+                </div>
+
+                <div class="mini-card">
+                    <h3>Projects</h3>
+                    <p>Portfolio & Django Apps</p>
+                </div>
+
+            </div>
+
+            <div class="about-buttons">
+
+                <a href="/portfolio/" class="btn-primary">
+                    View Projects
+                </a>
+
+                <a href="/contact/" class="btn-secondary">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+ <div class="mail-log">
+      <div class="logo2_btn">
+           <a href="https://wa.me/919605734765" target="_blank">
+        <img src="{% static 'image/whatsapp.png' %}" alt="whatsapp_logo">
+    </a>
+        </div>
+
+          <div class="logo2_btn">
+           <a href="https://instagram.com/mi_dhlaj_mk" target="_blank">
+            <img src="{% static 'image/instagram.png' %}" alt="insta_logo">
+        </a>
+        </div>
+        <div class="logo2_btn">
+            <a href="https://facebook.com/midhlaj.mk.65" target="_blank">
+            <img src="{% static 'image/fb.png' %}" alt="fb_logo">
+        </a>
+        </div>
+        <div class="logo2_btn">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yourmail@gmail.com"
+   target="_blank"> 
+            <img src="{% static 'image/email.png' %}" alt="email_logo">
+        </a>
+        </div>
+</div>
+</section>
+
+{% endblock %}

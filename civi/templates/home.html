@@ -1,0 +1,145 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="skills-container">
+
+{% for skill in skills %}
+
+    <div class="logo_btn">
+        <img src="{{ skill.image.url }}" alt="">
+        <p>{{ skill.name }}</p>
+    </div>
+
+{% endfor %}
+
+</div>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Hi, I'm Midhlaj</h1>
+
+        <h2 id="typing"></h2>
+
+        <p class="developer-text">
+    I am a student and aspiring Python Django Developer.
+    I am passionate about web development and continuously learning
+    new technologies such as Python, Django, HTML, CSS, JavaScript,
+    and MySQL. I enjoy building projects that help me improve my
+    programming and problem-solving skills.
+    </p>
+
+        <div class="profi-image">
+
+            <img
+                src="{% static 'image/img.png' %}"
+                alt="Profile"
+                class="profile-pic">
+
+            <img
+                src="{% static 'image/wd-cart.png' %}"
+                alt="Web Developer"
+                class="cart-pic">
+
+        </div>
+
+    </div>
+
+    <div class="skills-container">
+
+        <div class="logo_btn">
+            <img src="{% static 'image/python.png' %}" alt="Python">
+            <p>Python</p>
+        </div>
+
+        <div class="logo_btn">
+            <img src="{% static 'image/dj1.png' %}" alt="Django">
+            <p>Django</p>
+        </div>
+
+       
+        <div class="logo_btn">
+            <img src="{% static 'image/js.png' %}" alt="JavaScript">
+            <p>JavaScript</p>
+        </div>
+
+        <div class="logo_btn">
+            <img src="{% static 'image/mysql.png' %}" alt="MySQL">
+            <p>MySQL</p>
+        </div>
+
+    </div>
+
+    <p class="tech-text">
+        Python • Django • HTML • CSS • JavaScript • MySQL
+    </p>
+
+    <div class="hero-buttons">
+
+        <a href="/portfolio/" class="btn">
+            View My Projects
+        </a>
+
+        <a href="/contact/" class="btn contact-btn">
+            Contact Me
+        </a>
+        
+      </div>
+
+     <div class="mail-log">
+      <div class="logo2_btn">
+           <a href="https://wa.me/919605734765" target="_blank">
+        <img src="{% static 'image/whatsapp.png' %}" alt="whatsapp_logo">
+    </a>
+        </div>
+
+          <div class="logo2_btn">
+              <a href="https://instagram.com/@mi_dhlaj_mk" target="_blank">
+            <img src="{% static 'image/instagram.png' %}" alt="insta_logo">
+        </a>
+        </div>
+
+        <div class="logo2_btn">
+            <a href="https://facebook.com/midhlaj.mk.65" target="_blank">
+            <img src="{% static 'image/fb.png' %}" alt="fb_logo">
+        </a>
+        </div>
+        <div class="logo2_btn">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yourmail@gmail.com"
+   target="_blank"> 
+            <img src="{% static 'image/email.png' %}" alt="email_logo">
+        </a>
+        </div>
+</div>
+</section>
+
+<section class="about-short">
+
+    <h2>About Me</h2>
+
+    <p>
+        I am currently pursuing my studies and building practical
+        experience through personal projects. My focus is on Python,
+        Django, and modern web development. I am eager to learn,
+        adapt, and contribute to real-world projects.
+    </p>
+
+</section>
+<section class="stats-section">
+
+
+    <div class="stat-box">
+        <h2>Python</h2>
+        <p>Developer</p>
+    </div>
+
+    
+
+</section>
+
+
+{% endblock %}

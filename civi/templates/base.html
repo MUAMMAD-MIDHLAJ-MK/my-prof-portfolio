@@ -1,0 +1,38 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Portfolio{% endblock %}</title>
+
+    
+    <link rel="stylesheet" href="{% static 'css/skills.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    <link rel="stylesheet" href="{% static 'css/portfolio.css' %}">
+     <link rel="stylesheet" href="{% static 'css/contact.css' %}">
+     <link rel="stylesheet" href="{% static 'css/nav.css' %}">
+      <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+</head>
+<body>
+
+
+    <!-- Content -->
+    <main>
+        {% include 'navbar.html' %}
+        
+        {% block content %}
+        {% endblock %}
+
+    </main>
+      {% include 'footer.html' %}
+   
+    <script src="{% static 'js/script.js' %}"></script>
+     <script src="{% static 'js/home.js' %}"></script>
+     <script src="{% static 'js/skill.js' %}"></script>
+     <script src="{% static 'js/about.js' %}"></script>
+     <script src="{% static 'js/portfolio.js' %}"></script>
+       <script src="{% static 'js/contact.js' %}"></script>
+        <script src="{% static 'js/nav.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Skills{% endblock %}
+
+
+
+
+{% block content %}
+
+<div class="skills-grid">
+
+{% for skill in skills %}
+
+    <div class="skill-card">
+        <img src="{{ skill.image.url }}" alt="">
+        <h3>{{ skill.name }}</h3>
+        
+    </div>
+
+{% endfor %}
+
+</div>
+
+
+
+<section class="skills-section">
+
+    <h1>My Skills</h1>
+    <p class="skills-text">
+        Technologies and tools I use to build modern web applications.
+    </p>
+
+     
+
+    <div class="skills-grid">
+  
+
+        <div class="skill-card">
+            <img src="{% static 'image/html.png' %}" alt="HTML">
+            <h3>HTML5</h3>
+        </div>
+
+        <div class="skill-card">
+            <img src="{% static 'image/css3.png' %}" alt="CSS">
+            <h3>CSS3</h3>
+        </div>
+
+        <div class="skill-card">
+            <img src="{% static 'image/js.png' %}" alt="JavaScript">
+            <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill-card">
+            <img src="{% static 'image/python.png' %}" alt="Python">
+            <h3>Python</h3>
+        </div>
+
+        <div class="skill-card">
+            <img src="{% static 'image/dj1.png' %}" alt="Django">
+            <h3>Django</h3>
+        </div>
+
+        <div class="skill-card">
+            <img src="{% static 'image/mysql.png' %}" alt="MySQL">
+            <h3>MySQL</h3>
+        </div>
+
+        <div class="skill-card">
+            <img src="{% static 'image/github.png' %}" alt="GitHub">
+            <h3>Git & GitHub</h3>
+        </div>
+
+
+    </div>
+    
+
+
+
+</section>
+
+
+
+{% endblock %}

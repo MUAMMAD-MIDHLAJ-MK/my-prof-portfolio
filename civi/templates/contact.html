@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Contact{% endblock %}
+
+{% block content %}
+
+<section class="contact-section">
+
+    <div class="contact-header">
+
+        <span class="contact-tag">CONTACT ME</span>
+
+        <h1>Let's Build Something Amazing Together</h1>
+
+        <p>
+            I'm always interested in learning opportunities,
+            internships, freelance projects, and collaborations.
+            Feel free to reach out anytime.
+        </p>
+
+    </div>
+
+    <div class="contact-wrapper">
+
+        <div class="contact-left">
+
+            <div class="contact-card">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yourmail@gmail.com"
+   target="_blank">    
+                <h3>Email</h3>
+                <p>midhlajmk765@gmail.com</p>
+            </a>
+            </div>
+
+            <div class="contact-card">
+                  <a href="tel:+919605734765">
+               <h3>Phone</h3>
+                <p>+91 9605734765</p></a>
+            </div>
+
+            <div class="contact-card">
+                  <a href="https://maps.google.com/?q=Kozhikode,Kerala"
+       target="_blank">
+                <h3>Location</h3>
+                <p>Kerala, India</p>
+            </a>
+            </div>
+
+        </div>
+====/* FORMS */=======
+      <div class="contact-right">
+
+    <form method="POST" class="premium-form">
+        {% csrf_token %}
+
+        {{ form.name }}
+        {{ form.email }}
+        {{ form.subject }}
+        {{ form.message }}
+
+        <button type="submit">
+            Send Message 🚀
+        </button>
+
+    </form>
+
+</div>
+       
+
+    </div>
+ <div class="mail-log">
+      <div class="logo2_btn">
+           <a href="https://wa.me/919605734765" target="_blank">
+        <img src="{% static 'image/whatsapp.png' %}" alt="whatsapp_logo">
+    </a>
+        </div>
+
+          <div class="logo2_btn">
+            <a href="https://instagram.com/@mi_dhlaj_mk" target="_blank">
+            <img src="{% static 'image/instagram.png' %}" alt="insta_logo">
+        </a>
+        </div>
+        <div class="logo2_btn">
+            <a href="https://facebook.com/midhlaj.mk.65" target="_blank">
+            <img src="{% static 'image/fb.png' %}" alt="fb_logo">
+        </a>
+        </div>
+        <div class="logo2_btn">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yourmail@gmail.com"
+   target="_blank">
+    <img src="{% static 'image/email.png' %}" alt="email_logo">
+</a>
+        </div>
+</div>
+</section>
+
+
+
+    
+
+
+
+{% endblock %}
