@@ -537,3 +537,22 @@ img{
 .logo_btn:hover{
     transform:translateY(-5px);
 }
+
+.hero::before,
+.hero::after{
+    pointer-events:none;
+}
+
+.hero-content,
+.skills-container,
+.hero-buttons,
+.mail-log{
+    position:relative;
+    z-index:10;
+}
+
+.logo2_btn a,
+.btn{
+    position:relative;
+    z-index:20;
+}
