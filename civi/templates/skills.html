@@ -8,21 +8,6 @@
 
 {% block content %}
 
-<div class="skills-grid">
-
-{% for skill in skills %}
-
-    <div class="skill-card">
-        <img src="{{ skill.image.url }}" alt="">
-        <h3>{{ skill.name }}</h3>
-        
-    </div>
-
-{% endfor %}
-
-</div>
-
-
 
 <section class="skills-section">
 
@@ -35,7 +20,6 @@
 
     <div class="skills-grid">
   
-
         <div class="skill-card">
             <img src="{% static 'image/html.png' %}" alt="HTML">
             <h3>HTML5</h3>
@@ -68,17 +52,25 @@
 
         <div class="skill-card">
             <img src="{% static 'image/github.png' %}" alt="GitHub">
-            <h3>Git & GitHub</h3>
+            <h3>GitHub</h3>
+        </div>
+
+        <div class="skill-card">
+            <img src="{% static 'image/git.png' %}" alt="Git">
+            <h3>Git</h3>
         </div>
 
 
+
     </div>
-    
+       
+
 
 
 
 </section>
 
 
+   
 
 {% endblock %}

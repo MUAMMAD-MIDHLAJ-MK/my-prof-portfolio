@@ -28,6 +28,7 @@
 
         <div class="project-card">
 
+
             {% if project.image %}
             <img src="{{ project.image.url }}"
                  alt="{{ project.title }}">
@@ -65,7 +66,7 @@
 
         </div>
 
-        {% empty %}
+          {% empty %}
 
         <div class="project-card">
 
@@ -81,6 +82,7 @@
 
         </div>
 
+      
         {% endfor %}
 
     </div>

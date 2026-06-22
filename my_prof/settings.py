@@ -22,9 +22,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret keos.environ.get("SECRET_KEY") or "django-insecure-test-key"y used in production secret!
 SECRET_KEY = os.environ.get(
     "SECRET_KEY",
-    "django-insecure-local-test-key"
-)
-#os.environ.get("SECRET_KEY")
+    "django-insecure-local-test-key")
+
+
 
 
 
@@ -32,7 +32,6 @@ SECRET_KEY = os.environ.get(
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",

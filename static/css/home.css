@@ -524,3 +524,16 @@ img{
     grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
     gap:20px;
 }
+
+/* button py.js.sql*/
+
+.logo_btn{
+    text-decoration:none;
+    color:white;
+    text-align:center;
+    transition:0.3s;
+}
+
+.logo_btn:hover{
+    transform:translateY(-5px);
+}
