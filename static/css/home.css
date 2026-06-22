@@ -556,3 +556,13 @@ img{
     position:relative;
     z-index:20;
 }
+
+.profile-pic{
+    cursor:pointer;
+    transition:.4s ease;
+}
+
+.profile-pic:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 30px rgba(56,189,248,.8);
+}
