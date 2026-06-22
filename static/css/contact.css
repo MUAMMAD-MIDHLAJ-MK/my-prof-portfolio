@@ -162,39 +162,6 @@
 
 /* Social Icons */
 
-.mail-log{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    margin-top:50px;
-    flex-wrap:wrap;
-}
-
-.logo2_btn{
-    width:60px;
-    height:60px;
-
-    border-radius:50%;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    background:rgba(255,255,255,.08);
-
-    transition:.3s;
-}
-
-.logo2_btn:hover{
-    transform:translateY(-8px);
-    background:rgba(56,189,248,.15);
-}
-
-.logo2_btn img{
-    width:32px;
-    height:32px;
-    object-fit:contain;
-}
 
 /* Success Message */
 

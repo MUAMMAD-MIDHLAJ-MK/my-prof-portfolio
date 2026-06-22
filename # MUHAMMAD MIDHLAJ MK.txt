@@ -1,0 +1,70 @@
+# MUHAMMAD MIDHLAJ MK
+
+📞 +91 9605734765
+📧 [midhlajmk765@gmail.com](mailto:midhlajmk765@gmail.com)
+📍 Kerala, India
+🔗 GitHub: github.com/MUAMMAD-MIDHLAJ-MK
+
+## Career Objective
+
+Motivated and enthusiastic BCA student with a strong foundation in Python, Django, HTML, CSS, JavaScript, and MySQL. Seeking an entry-level opportunity to apply my technical skills, learn from industry professionals, and contribute to organizational growth while building a successful career in software development.
+
+## Education
+
+### Bachelor of Computer Applications (BCA)
+
+Currently Pursuing
+
+### Higher Secondary Education (+2)
+
+Completed
+
+## Technical Skills
+
+* Python
+* Django
+* HTML5
+* CSS3
+* JavaScript
+* MySQL
+* Git
+* GitHub
+* Web Development
+
+## Academic Projects
+
+### Personal Portfolio Website
+
+* Developed a responsive portfolio website using Django, HTML, CSS, and JavaScript.
+* Integrated contact form and project showcase features.
+* Deployed the application online using Render.
+
+### Django Web Applications
+
+* Built database-driven web applications using Django framework.
+* Implemented CRUD operations and user-friendly interfaces.
+
+## Strengths
+
+* Quick Learner
+* Problem Solving
+* Teamwork
+* Communication Skills
+* Self-Motivated
+
+## Languages Known
+
+* Malayalam
+* English
+
+## Declaration
+
+I hereby declare that the information provided above is true and correct to the best of my knowledge and belief.
+
+Place: __________
+
+Date: __________
+
+Signature
+
+Muhammad Midhlaj MK
