@@ -35,5 +35,38 @@
      <script src="{% static 'js/portfolio.js' %}"></script>
        <script src="{% static 'js/contact.js' %}"></script>
         <script src="{% static 'js/nav.js' %}"></script>
+        <script src="{% static 'js/sound.js' %}"></script>
+        {% load static %}
+
+{% load static %}
+
+<audio id="menuSound">
+    <source src="{% static 'sounds/click3dot.mp3' %}" type="audio/mpeg">
+</audio>
+
+<audio id="clickSound">
+    <source src="{% static 'sounds/click.mp3' %}" type="audio/mpeg">
+</audio>
+
+<audio id="hoverSound">
+    <source src="{% static 'sounds/hover.mp3' %}" type="audio/mpeg">
+</audio>
+<audio id="socialSound">
+    <source src="{% static 'sounds/social.mp3' %}" type="audio/mpeg">
+</audio>
+
+<audio id="PhoneSound">
+    <source src="{% static 'sounds/phone.mp3' %}" type="audio/mpeg">
+</audio>
+<audio id="SendSound">
+    <source src="{% static 'sounds/thank.mp3' %}" type="audio/mpeg">
+</audio>
+<audio id="ProfSound">
+    <source src="{% static 'sounds/prof.mp3' %}" type="audio/mpeg">
+</audio>
+<audio id="AboutSound">
+    <source src="{% static 'sounds/click2.mp3' %}" type="audio/mpeg">
+</audio>
+
 </body>
 </html>

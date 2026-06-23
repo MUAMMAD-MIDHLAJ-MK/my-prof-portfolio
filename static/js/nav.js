@@ -42,3 +42,12 @@ document.addEventListener("mouseup", function(e){
     }
 
 });
+const menuBtn = document.querySelector(".menu-btn");
+
+menuBtn.addEventListener("click", () => {
+    menuBtn.classList.add("clicked");
+
+    setTimeout(() => {
+        menuBtn.classList.remove("clicked");
+    }, 300);
+});

@@ -36,6 +36,28 @@
 }
 
 /* Logo */
+.logo,
+.logo:focus,
+.logo:active,
+.menu-btn,
+.menu-btn:focus,
+.menu-btn:active {
+    outline: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+
+
+
+
+
+
 
 .logo{
     display: flex;
@@ -113,12 +135,26 @@
 }
 
 /* Hamburger Button */
-
 .menu-btn{
     display: none;
     font-size: 30px;
     color: white;
     cursor: pointer;
+
+    padding: 6px 12px;
+    border: 1.5px solid transparent;
+    border-radius: 12px;
+
+    transition: .3s ease;
+
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Touch/Click ചെയ്യുമ്പോൾ മാത്രം */
+.menu-btn:active{
+    border: 1.5px solid #38bdf8;
+    box-shadow: 0 0 15px rgba(56,189,248,.5);
+    background: rgba(56,189,248,.1);
 }
 
 /* ===== MOBILE ===== */
@@ -178,4 +214,5 @@
     padding:10px 0;
     font-size:15px;
 }
+
 }
