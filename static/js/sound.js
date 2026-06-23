@@ -13,11 +13,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // ===== Skills Hover =====
     document.querySelectorAll(".skills-container, .skills-grid").forEach(item => {
-        item.addEventListener("mouseover", () => {
-            hoverSound.currentTime = 0;
-            hoverSound.play();
-        });
+
+    // Desktop
+    item.addEventListener("mouseover", () => {
+        hoverSound.currentTime = 0;
+        hoverSound.play();
     });
+
+    // Mobile
+    item.addEventListener("touchstart", () => {
+        hoverSound.currentTime = 0;
+        hoverSound.play();
+    });
+
+});
 
     // ===== Menu Button =====
     const menuBtn = document.querySelector(".menu-btn");
