@@ -63,8 +63,8 @@ Email: {contact.email}
 Message:
 {contact.message}
 """,
-                from_email="yourgmail@gmail.com",
-                recipient_list=["yourgmail@gmail.com"],
+                from_email="midhljmk765@gmail.com",
+                recipient_list=["midhlajmk765@gmail.com"],
                 fail_silently=False,
             )
 
