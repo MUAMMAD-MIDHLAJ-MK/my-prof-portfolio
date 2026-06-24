@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const socialSound = new Audio("/static/sounds/social.mp3");
     const clickSound = new Audio("/static/sounds/click.mp3");
     const PhoneSound = new Audio("/static/sounds/phone.mp3");
-    const SendSound = new Audio("/static/sounds/thank.mp3");
+    const SendSound = new Audio("/static/sounds/send.mp3");
     const ProfSound = new Audio("/static/sounds/prof.mp3");
     const AboutSound = new Audio("/static/sounds/click2.mp3");
 

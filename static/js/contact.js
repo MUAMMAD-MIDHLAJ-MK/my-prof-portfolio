@@ -12,3 +12,11 @@ cards.forEach((card,index)=>{
     },index*250);
 
 });
+
+const successMsg = document.querySelector(".success-message");
+
+if (successMsg) {
+    const successSound = document.getElementById("successSound");
+
+    successSound.play();
+}
